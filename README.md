@@ -1,20 +1,23 @@
-Experiment-2--Implementation-of-Perceptron
-AIM:
+## Experiment-2--Implementation-of-Perceptron
+### AIM:
+
 To implement a perceptron for classification using Python
 
-EQUIPMENTS REQUIRED:
+### EQUIPMENTS REQUIRED:
+
 Hardware – PCs
 
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-RELATED THEORETICAL CONCEPT:
+### RELATED THEORETICAL CONCEPT:
+
 A Perceptron is a basic learning algorithm invented in 1959 by Frank Rosenblatt. It is meant to mimic the working logic of a biological neuron. The human brain is basically a collection of many interconnected neurons. Each one receives a set of inputs, applies some sort of computation on them and propagates the result to other neurons. A Perceptron is an algorithm used for supervised learning of binary classifiers.Given a sample, the neuron classifies it by assigning a weight to its features. To accomplish this a Perceptron undergoes two phases: training and testing. During training phase weights are initialized to an arbitrary value. Perceptron is then asked to evaluate a sample and compare its decision with the actual class of the sample.If the algorithm chose the wrong class weights are adjusted to better match that particular sample. This process is repeated over and over to finely optimize the biases. After that, the algorithm is ready to be tested against a new set of completely unknown samples to evaluate if the trained model is general enough to cope with real-world samples. The important Key points to be focused to implement a perceptron: Models have to be trained with a high number of already classified samples. It is difficult to know a priori this number: a few dozen may be enough in very simple cases while in others thousands or more are needed. Data is almost never perfect: a preprocessing phase has to take care of missing features, uncorrelated data and, as we are going to see soon, scaling. Perceptron requires linearly separable samples to achieve convergence. The math of Perceptron If we represent samples as vectors of size n, where ‘n’ is the number of its features, a Perceptron can be modeled through the composition of two functions. The first one f(x) maps the input features ‘x’ vector to a scalar value, shifted by a bias ‘b’
 
 A threshold function, usually Heaviside or sign functions, maps the scalar value to a binary output:
 
 Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.
 
-ALGORITHM:
+### ALGORITHM:
 1) Importing the libraries
 
 2) Importing the dataset
@@ -41,7 +44,7 @@ ALGORITHM:
 
 12) Print the accuracy
 
-PROGRAM:
+### PROGRAM:
 ```java
 import numpy as np
 import pandas as pd
@@ -110,27 +113,27 @@ plt.ylabel('Errors')
 plt.show()
 
 ```
-OUTPUT:
+### OUTPUT:
 
-Dataset:
+#### Dataset:
 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/93427240/230885934-944f5b96-82fb-41ae-86de-b58c8d6b9597.png">
 
 
-Scatter Plot:
+#### Scatter Plot:
 
 <img width="436" alt="image" src="https://user-images.githubusercontent.com/93427240/230886066-dce6da7b-e87d-4171-9574-b233db789b35.png">
 
 
-Error Plot:
+#### Error Plot:
 
 <img width="434" alt="image" src="https://user-images.githubusercontent.com/93427240/230886191-576a3993-8a0a-4402-a754-166e50c0f596.png">
 
 
-Accuracy:
+#### Accuracy:
 
 <img width="133" alt="image" src="https://user-images.githubusercontent.com/93427240/230886130-afd169e9-8eb5-40df-8a60-925d50e1e7e1.png">
 
 
-RESULT:
+### RESULT:
 Thus a perceptron for classification is implemented using python
