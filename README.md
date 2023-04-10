@@ -111,19 +111,24 @@ plt.show()
 
 ```
 OUTPUT:
+
 Dataset:
+
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/93427240/230885934-944f5b96-82fb-41ae-86de-b58c8d6b9597.png">
 
 
 Scatter Plot:
+
 <img width="436" alt="image" src="https://user-images.githubusercontent.com/93427240/230886066-dce6da7b-e87d-4171-9574-b233db789b35.png">
 
 
 Error Plot:
+
 <img width="434" alt="image" src="https://user-images.githubusercontent.com/93427240/230886191-576a3993-8a0a-4402-a754-166e50c0f596.png">
 
 
 Accuracy:
+
 <img width="133" alt="image" src="https://user-images.githubusercontent.com/93427240/230886130-afd169e9-8eb5-40df-8a60-925d50e1e7e1.png">
 
 
