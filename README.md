@@ -121,8 +121,8 @@ plt.show()
 
 
 #### Scatter Plot:
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/93427240/230888349-a2c4f764-1d2b-4b45-90fd-e5f1aa9bc991.png">
 
-<img width="436" alt="image" src="https://user-images.githubusercontent.com/93427240/230886066-dce6da7b-e87d-4171-9574-b233db789b35.png">
 
 
 #### Error Plot:
